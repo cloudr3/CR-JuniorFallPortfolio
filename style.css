@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #0b0c1a;
+  background-color: #67d1ff;
   color: #f0f0f0;
   background-image: url("starry_sun.jpg");
   background-size: cover;
@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #1b1d3a;
+  background-color: #0079a9;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-right a:hover {
-  color: #aaaaff;
+  color: #aae7ff;
 }
 
 /* =========================
@@ -62,11 +62,18 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
+  background-color: #0072b9;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+}
+.resource-card-email {
+  background-color: #0072b9;
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  text-align: center;
 }
 
 /* =========================
@@ -83,8 +90,44 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #5555aa;
+  border: 3px solid #aae7ff;
   object-fit: cover;
+}
+
+.email-pic img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #aae7ff;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.unity-pic img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #aae7ff;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.instagram-pic img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #aae7ff;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.email-pic img:hover {
+  transform: scale(1.05);
+}
+
+.unity-pic img:hover {
+  transform: scale(1.05);
+}
+
+.instagram-pic img:hover {
+  transform: scale(1.05);
 }
 
 .bio-text h1 {
@@ -94,7 +137,7 @@ body {
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #ccccff;
+  color: #aae7ff;
 }
 
 /* =========================
@@ -124,7 +167,7 @@ body {
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #aae7ff;
 }
 
 .reflection p {
