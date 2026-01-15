@@ -73,9 +73,19 @@ body {
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  text-align: center;
-  align-items: flex-start;
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.resource-card-contacts {
+  background-color: #0072b9;
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  text-align: center;
 }
 
 /* =========================
