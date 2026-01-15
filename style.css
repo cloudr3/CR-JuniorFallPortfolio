@@ -74,6 +74,8 @@ body {
   padding: 1.5em;
   border-radius: 12px;
   text-align: center;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 /* =========================
